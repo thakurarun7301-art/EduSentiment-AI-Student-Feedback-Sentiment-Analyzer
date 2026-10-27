@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "EduSentiment AI",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/EduSentiment-AI/app.py"
+            ],
+            "cwd": "${workspaceFolder}/EduSentiment-AI",
+            "console": "integratedTerminal"
+        }
+    ]
+}
